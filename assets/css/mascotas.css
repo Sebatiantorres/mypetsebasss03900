@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins" , sans-serif;
+}
+
+header {
+    width: 100%;
+    height: 50px;
+    background-color: #333;
+    color: #fff;
+
+
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+h1 {
+    float: left;
+    padding-top: 7px;
+}
+
+.contenedor {
+    width: 88%;
+    margin: auto;
+}
+
+header .contenedor {
+    display: table;
+}
+/*Header*/
+
+.pets-space {
+    color: #000;
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+    height: 20%;
+}
+
+#pets-space {
+    color: #000;
+    font-family: 'Open Sans', sans-serif;
+}
+#pets {
+    display: flex;
+    flex-flow: row wrap;
+    
+    justify-content: space-between;
+    flex-basis: 80%;
+}
+.pet{
+    flex-grow: 1;
+    flex-basis: 250px;
+    margin-bottom: 25px;
+    margin-right: 20px;
+    border: 1px solid #ccc;
+}
+.pet img {
+    width: 100%;
+    height: 150px;
+}
+
+.pet-info {
+    padding: 10px;
+}
+
+.pet-info a {
+    font-size: 16px;
+    color: #000;
+    transition: all 300ms;
+}
+.pet-info a:hover {
+    color: green;
+}
+.pet-info p{
+    font-size: 16px;
+    color: gray;
+}
